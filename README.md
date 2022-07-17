@@ -1,13 +1,13 @@
 # APUFirmware
-PC Engines APU firmware auto downloader and updater
+PC Engines APU firmware auto downloader and updater.
 
 ## Info
 
-apufirmware v1.00 2022 (c) MonkeyCat (code.monkeycat.nl)
+apufirmware v1.00 2022 (c) MonkeyCat ([code.monkeycat.nl](https://code.monkeycat.nl))
 
 ## See also
 
-[APUCtl]() controls your hardware wifi on/off switch and your simcard slot from the command line.
+[APUCtl](https://github.com/Monkeycat-nl/APUCtl) tool to control your hardware from the command line. Like wifi on/off hardware switch and your simcard slot selection.
 
 ## Usage
 
@@ -22,11 +22,13 @@ usage: apufirmware command
 
 When you run `apufirmware info`, it shows the current firmware info. You are also notified when a new update is available. If available, it is immediately downloaded and the rom verified.
 
-When you run *apufirmware update* it will do the same as running `apufirmware info` with the addition that it also installs the newest update if available and preforms a cold boot.
+When you run `apufirmware update` it will do the same as running `apufirmware info` with the addition that it also installs the newest update if available and preforms a cold boot.
 
 ## Typical output
 
 ```
+apufirmware v1.00 2022 (c) MonkeyCat (code.monkeycat.nl)
+
 model        apu4
 serial       1279999
 flash        Winbond W25Q64.V (8192Kb)
